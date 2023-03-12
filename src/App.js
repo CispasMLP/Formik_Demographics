@@ -10,6 +10,8 @@ import countries from './data/countries.json'
 import DateTimePicker from './component/DateTimePicker';
 import CheckBox from './component/CheckBox';
 import Button from './component/SubmittButton';
+import MuiTelInput from './component/PhoneNumber';
+
 
 
 function App() {
@@ -112,6 +114,13 @@ function App() {
                   <Textfield
                   name='phone'
                   label='Phone'
+                  />
+                  </Grid>
+                  <Grid item xs={6}>
+                  <MuiTelInput
+                  name='phone'
+                  label='Phone'
+                  defaultCountry="MW" 
                   />
                   </Grid>
 
